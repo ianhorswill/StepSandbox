@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "StepWasmStandalone",
   "resources": {
-    "hash": "sha256-7ZanPgXy3DJcgd+Fk4/fNc0w5VOSVvvIVakMPisosNk=",
+    "hash": "sha256-rIzCteZmVfEgsS1L+DK9S9ScxtXf7pGU/RZpaTfSrCg=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Components.yltl1zs8jk.wasm": "Microsoft.AspNetCore.Components.wasm",
       "Microsoft.AspNetCore.Components.Web.b71v5pjkjc.wasm": "Microsoft.AspNetCore.Components.Web.wasm",
@@ -18,8 +18,8 @@
       "Microsoft.JSInterop.bdr89uoxtd.wasm": "Microsoft.JSInterop.wasm",
       "Microsoft.JSInterop.WebAssembly.p386u0jty9.wasm": "Microsoft.JSInterop.WebAssembly.wasm",
       "netstandard.ir0qrjexvh.wasm": "netstandard.wasm",
-      "Step.col5dkeaog.wasm": "Step.wasm",
-      "StepWasmStandalone.n5kp633lo6.wasm": "StepWasmStandalone.wasm",
+      "Step.q8lqqqgbur.wasm": "Step.wasm",
+      "StepWasmStandalone.ft3wi6gihn.wasm": "StepWasmStandalone.wasm",
       "System.Collections.Concurrent.597389idko.wasm": "System.Collections.Concurrent.wasm",
       "System.Collections.Immutable.vqma671i49.wasm": "System.Collections.Immutable.wasm",
       "System.Collections.j71up4e2cw.wasm": "System.Collections.wasm",
@@ -80,8 +80,8 @@
       "Microsoft.JSInterop.bdr89uoxtd.wasm": "sha256-j93883TLWrUsylBnXBVb1aCW34uImOVFvkmgV7v8tx0=",
       "Microsoft.JSInterop.WebAssembly.p386u0jty9.wasm": "sha256-hbzWuXrlepIqY/y+nQ2ZAFer2/njy1dc+Y4LUaAaL5E=",
       "netstandard.ir0qrjexvh.wasm": "sha256-ojLjsORn3MqLB6/OWbHrNfAZM09V1hsQGk0dR/ZzYzs=",
-      "Step.col5dkeaog.wasm": "sha256-BKYg7Zg8SNvZrLRdiyFdPfN2+lqFBiFGmwsi9aVbX9U=",
-      "StepWasmStandalone.n5kp633lo6.wasm": "sha256-S1S0XW0iqq5hAz5NG7PHyj5QAixzZ+mo/Kd1DY+wpRk=",
+      "Step.q8lqqqgbur.wasm": "sha256-CrApFI1oyJhwxxrKxgFdv+W/l8+ndZVm9Iu9bQOsEFQ=",
+      "StepWasmStandalone.ft3wi6gihn.wasm": "sha256-rXpd3QQnnPiyHQ4PXELva5HntcaKhb6NpUrgxe44G3c=",
       "System.Collections.Concurrent.597389idko.wasm": "sha256-eXPrVvfCRYgF4G7hr2XhBpY0vBEWARvqaMVIQ9kjujE=",
       "System.Collections.Immutable.vqma671i49.wasm": "sha256-WZzMivHPivXTqksKHl22+nCPJfFGC9orI4dvYzUn1+Q=",
       "System.Collections.j71up4e2cw.wasm": "sha256-YfWDC7Uvne+tCbNEBCu8Xe5lHKAgHJxr193GKP0w/pY=",
