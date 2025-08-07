@@ -105,7 +105,7 @@ const FEATURE_STRUCTURE = {
 GENERAL_VALUE.push(FEATURE_STRUCTURE)
 
 const CALL = {
-  begin: ' \\[ *',
+  begin: ' \\[ *(?!randomly|or|end|firstOf|case|cool|once)',
   scope: 'variable',
   end: '\\]',
   endsWithParent: true,
@@ -144,12 +144,16 @@ const VARIABLE_INTERPOLATION = {
   scope: "variable"
 };
 
+const INLINE_KEYWORD = {
+  scope: 'keyword',
+  begin: '\\[(randomly|or|end|firstOf|case|cool|once)\\]'
+}
 const SINGLE_LINE_BODY = {
   scope: 'string',
   begin: ':',
   beginScope: 'string',
   end: '$',
-  contains: [ CALL, VARIABLE_INTERPOLATION ]
+  contains: [ INLINE_KEYWORD, CALL, VARIABLE_INTERPOLATION  ]
 }
 
 const METHOD_NAME = {
