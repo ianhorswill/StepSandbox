@@ -6,21 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Step sandbox</title>
 
-    <!--<script>
+    <script>
         (function () {
             // Detect base path from URL (e.g., /myapp/ -> "myapp")
             var pathSegments = window.location.pathname.split('/').filter(s => s);
-            var basePath = window.location.host === 'localhost' ? '/': `/StepSandbox/`;
+            var basePath = pathSegments.length > 0 ? `/${pathSegments[0]}/` : '/';
 
+            console.log('Detected base path:', basePath);
             // Create and insert <base> tag dynamically
             var baseTag = document.createElement('base');
             baseTag.href = basePath;
             document.head.appendChild(baseTag);
 
             // Optional: store for later use in JS interop
-            //window.__blazorBasePath = basePath;
+            window.__blazorBasePath = basePath;
         })();
-    </script>-->
+    </script>
 
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/app.css" />
