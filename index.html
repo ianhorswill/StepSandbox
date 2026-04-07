@@ -10,7 +10,7 @@
         (function () {
             // Detect base path from URL (e.g., /myapp/ -> "myapp")
             var pathSegments = window.location.pathname.split('/').filter(s => s);
-            var basePath = pathSegments.length > 0 ? `/${pathSegments[0]}/` : '/';
+            var basePath = window.location.host === 'localhost' ? '/': `/${pathSegments[0]}/`;
 
             // Create and insert <base> tag dynamically
             var baseTag = document.createElement('base');
